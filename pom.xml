@@ -169,7 +169,7 @@ under the License.
               <tagletArtifact>
                 <groupId>org.apache.maven.plugin-tools</groupId>
                 <artifactId>maven-plugin-tools-javadoc</artifactId>
-                <version>3.5.2</version>
+                <version>3.0.5</version>
               </tagletArtifact>
             </tagletArtifacts>
           </configuration>
