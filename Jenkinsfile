@@ -12,7 +12,7 @@ pipeline {
           agent { node { label 'ubuntu' } }
           steps {
               timeout( time: 180, unit: 'MINUTES' ) {
-                mavenBuild( "jdk_1.8_latest", "maven_latest")
+                mavenBuild( "jdk_1.9_latest", "maven_latest")
             }
           }
         }
